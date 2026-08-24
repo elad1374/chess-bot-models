@@ -13,3 +13,22 @@ Ensure **Git LFS** is installed before cloning (required to download the actual 
 ```bash
 git lfs install
 ```
+
+### 2. Clone this Repository
+Download or clone this repository to your local machine:
+```bash
+git clone https://github.com/elad1374/chess-bot-models.git
+```
+
+### 3. Copy Models to Main Project
+Copy the **entire folders** (`classify`, `detect`, `pose`) into your main project's `runs` directory:
+```bash
+# Example structure:
+chess-bot/
+├── runs/                <-- Place the downloaded model folders here
+│   ├── classify/
+│   ├── detect/
+│   └── pose/
+├── src/
+└── main.py
+```
