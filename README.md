@@ -26,6 +26,7 @@ Copy from `../chess-models/` the **entire folders** (`classify`, `detect`, `pose
 # Example structure:
 chess-bot/
 ├── runs/                <-- Place the downloaded model folders here
+├── ├── README.txt
 │   ├── classify/
 │   ├── detect/
 │   └── pose/
