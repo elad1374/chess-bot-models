@@ -29,6 +29,5 @@ chess-bot/
 │   ├── classify/
 │   ├── detect/
 │   └── pose/
-├── src/
-└── main.py
+└── src/
 ```
